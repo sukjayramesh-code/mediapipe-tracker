@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+}
+
+video, canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(-1);
+}
